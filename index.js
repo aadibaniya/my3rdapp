@@ -1,10 +1,10 @@
 const http = require("http");
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { "Content-Type": "text/plain" });
-  res.end("Hello from my Node.js app íº€ Auto-deploy is working!");
+  res.end("Hello from my Node.js app ï¿½ï¿½ï¿½ Auto-deploy is working!");
 });
 
 server.listen(PORT, () => {
